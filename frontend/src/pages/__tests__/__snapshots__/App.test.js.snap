@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App matches snapshot on an item detail route 1`] = `
+<div>
+  <nav
+    style="padding: 12px 24px; border-bottom: 1px solid #e0e0e0; background: rgb(250, 250, 250); display: flex; align-items: center;"
+  >
+    <a
+      href="/"
+      style="font-weight: 600; font-size: 18px; text-decoration: none; color: rgb(51, 51, 51);"
+    >
+      Item Catalog
+    </a>
+  </nav>
+  <main>
+    <div
+      style="padding: 16px; max-width: 720px; margin: 0px auto;"
+    >
+      <div
+        style="height: 24px; width: 200px; background: rgb(238, 238, 238); border-radius: 4px; margin-bottom: 12px;"
+      />
+      <div
+        style="height: 16px; width: 140px; background: rgb(238, 238, 238); border-radius: 4px; margin-bottom: 8px;"
+      />
+      <div
+        style="height: 16px; width: 100px; background: rgb(238, 238, 238); border-radius: 4px;"
+      />
+    </div>
+  </main>
+</div>
+`;
+
+exports[`App matches snapshot on the home route 1`] = `
+<div>
+  <nav
+    style="padding: 12px 24px; border-bottom: 1px solid #e0e0e0; background: rgb(250, 250, 250); display: flex; align-items: center;"
+  >
+    <a
+      href="/"
+      style="font-weight: 600; font-size: 18px; text-decoration: none; color: rgb(51, 51, 51);"
+    >
+      Item Catalog
+    </a>
+  </nav>
+  <main>
+    <div
+      style="padding: 16px; max-width: 720px; margin: 0px auto;"
+    >
+      <h1
+        style="font-size: 24px; margin-bottom: 16px;"
+      >
+        Items
+      </h1>
+      <input
+        aria-label="Search items"
+        placeholder="Search by name…"
+        style="width: 100%; padding: 10px 14px; font-size: 16px; border: 1px solid #ccc; border-radius: 6px; margin-bottom: 16px; box-sizing: border-box;"
+        type="search"
+        value=""
+      />
+      <div
+        aria-busy="true"
+        style="display: flex; flex-direction: column; gap: 8px;"
+      >
+        <div
+          style="height: 40px; border-radius: 4px; background-size: 200% 100%; animation: shimmer 1.5s infinite;"
+        />
+        <div
+          style="height: 40px; border-radius: 4px; background-size: 200% 100%; animation: shimmer 1.5s infinite;"
+        />
+        <div
+          style="height: 40px; border-radius: 4px; background-size: 200% 100%; animation: shimmer 1.5s infinite;"
+        />
+        <div
+          style="height: 40px; border-radius: 4px; background-size: 200% 100%; animation: shimmer 1.5s infinite;"
+        />
+        <div
+          style="height: 40px; border-radius: 4px; background-size: 200% 100%; animation: shimmer 1.5s infinite;"
+        />
+        <div
+          style="height: 40px; border-radius: 4px; background-size: 200% 100%; animation: shimmer 1.5s infinite;"
+        />
+        <div
+          style="height: 40px; border-radius: 4px; background-size: 200% 100%; animation: shimmer 1.5s infinite;"
+        />
+        <div
+          style="height: 40px; border-radius: 4px; background-size: 200% 100%; animation: shimmer 1.5s infinite;"
+        />
+        <style>
+          @keyframes shimmer { 0% { background-position: 200% 0 } 100% { background-position: -200% 0 } }
+        </style>
+      </div>
+    </div>
+  </main>
+</div>
+`;

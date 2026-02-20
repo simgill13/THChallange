@@ -1,0 +1,248 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Items matches snapshot in error state 1`] = `
+<div>
+  <div
+    style="padding: 16px; max-width: 720px; margin: 0px auto;"
+  >
+    <h1
+      style="font-size: 24px; margin-bottom: 16px;"
+    >
+      Items
+    </h1>
+    <input
+      aria-label="Search items"
+      placeholder="Search by name…"
+      style="width: 100%; padding: 10px 14px; font-size: 16px; border: 1px solid #ccc; border-radius: 6px; margin-bottom: 16px; box-sizing: border-box;"
+      type="search"
+      value=""
+    />
+    <p
+      role="alert"
+      style="color: rgb(211, 47, 47); margin-bottom: 12px;"
+    >
+      Something went wrong: 
+      Network failure
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Items matches snapshot in loading state 1`] = `
+<div>
+  <div
+    style="padding: 16px; max-width: 720px; margin: 0px auto;"
+  >
+    <h1
+      style="font-size: 24px; margin-bottom: 16px;"
+    >
+      Items
+    </h1>
+    <input
+      aria-label="Search items"
+      placeholder="Search by name…"
+      style="width: 100%; padding: 10px 14px; font-size: 16px; border: 1px solid #ccc; border-radius: 6px; margin-bottom: 16px; box-sizing: border-box;"
+      type="search"
+      value=""
+    />
+    <div
+      aria-busy="true"
+      style="display: flex; flex-direction: column; gap: 8px;"
+    >
+      <div
+        style="height: 40px; border-radius: 4px; background-size: 200% 100%; animation: shimmer 1.5s infinite;"
+      />
+      <div
+        style="height: 40px; border-radius: 4px; background-size: 200% 100%; animation: shimmer 1.5s infinite;"
+      />
+      <div
+        style="height: 40px; border-radius: 4px; background-size: 200% 100%; animation: shimmer 1.5s infinite;"
+      />
+      <div
+        style="height: 40px; border-radius: 4px; background-size: 200% 100%; animation: shimmer 1.5s infinite;"
+      />
+      <div
+        style="height: 40px; border-radius: 4px; background-size: 200% 100%; animation: shimmer 1.5s infinite;"
+      />
+      <div
+        style="height: 40px; border-radius: 4px; background-size: 200% 100%; animation: shimmer 1.5s infinite;"
+      />
+      <div
+        style="height: 40px; border-radius: 4px; background-size: 200% 100%; animation: shimmer 1.5s infinite;"
+      />
+      <div
+        style="height: 40px; border-radius: 4px; background-size: 200% 100%; animation: shimmer 1.5s infinite;"
+      />
+      <style>
+        @keyframes shimmer { 0% { background-position: 200% 0 } 100% { background-position: -200% 0 } }
+      </style>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Items matches snapshot with an empty result set 1`] = `
+<div>
+  <div
+    style="padding: 16px; max-width: 720px; margin: 0px auto;"
+  >
+    <h1
+      style="font-size: 24px; margin-bottom: 16px;"
+    >
+      Items
+    </h1>
+    <input
+      aria-label="Search items"
+      placeholder="Search by name…"
+      style="width: 100%; padding: 10px 14px; font-size: 16px; border: 1px solid #ccc; border-radius: 6px; margin-bottom: 16px; box-sizing: border-box;"
+      type="search"
+      value=""
+    />
+    <p
+      style="color: rgb(102, 102, 102); text-align: center; margin-top: 32px;"
+    >
+      No items found
+      .
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Items matches snapshot with an empty search result 1`] = `
+<div>
+  <div
+    style="padding: 16px; max-width: 720px; margin: 0px auto;"
+  >
+    <h1
+      style="font-size: 24px; margin-bottom: 16px;"
+    >
+      Items
+    </h1>
+    <input
+      aria-label="Search items"
+      placeholder="Search by name…"
+      style="width: 100%; padding: 10px 14px; font-size: 16px; border: 1px solid #ccc; border-radius: 6px; margin-bottom: 16px; box-sizing: border-box;"
+      type="search"
+      value=""
+    />
+    <p
+      style="color: rgb(102, 102, 102); text-align: center; margin-top: 32px;"
+    >
+      No items found
+       matching "nonexistent"
+      .
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Items matches snapshot with items and pagination 1`] = `
+<div>
+  <div
+    style="padding: 16px; max-width: 720px; margin: 0px auto;"
+  >
+    <h1
+      style="font-size: 24px; margin-bottom: 16px;"
+    >
+      Items
+    </h1>
+    <input
+      aria-label="Search items"
+      placeholder="Search by name…"
+      style="width: 100%; padding: 10px 14px; font-size: 16px; border: 1px solid #ccc; border-radius: 6px; margin-bottom: 16px; box-sizing: border-box;"
+      type="search"
+      value=""
+    />
+    <div
+      aria-label="Items list"
+      role="list"
+      style="border: 1px solid #eee; border-radius: 6px; margin-bottom: 16px; height: 104px; overflow: hidden;"
+    >
+      <div
+        role="list"
+        style="position: relative; max-height: 100%; flex-grow: 1; overflow-y: auto;"
+      >
+        <div
+          data-react-window-index="0"
+          role="listitem"
+          style="position: absolute; left: 0px; transform: translateY(0px); height: 52px; width: 100%; display: flex; align-items: center; padding: 0px 16px; box-sizing: border-box; overflow: hidden;"
+        >
+          <a
+            href="/items/1"
+            style="flex: 1; min-width: 0; display: flex; justify-content: space-between; align-items: center; text-decoration: none; height: 100%; border-bottom: 1px solid #eee; padding: 0px 4px;"
+          >
+            <span
+              style="font-weight: 500; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; margin-right: 12px;"
+            >
+              Laptop Pro
+            </span>
+            <span
+              style="color: rgb(102, 102, 102); font-size: 14px; flex-shrink: 0; white-space: nowrap;"
+            >
+              Electronics
+               · $
+              2499
+            </span>
+          </a>
+        </div>
+        <div
+          data-react-window-index="1"
+          role="listitem"
+          style="position: absolute; left: 0px; transform: translateY(52px); height: 52px; width: 100%; display: flex; align-items: center; padding: 0px 16px; box-sizing: border-box; overflow: hidden;"
+        >
+          <a
+            href="/items/2"
+            style="flex: 1; min-width: 0; display: flex; justify-content: space-between; align-items: center; text-decoration: none; height: 100%; border-bottom: 1px solid #eee; padding: 0px 4px;"
+          >
+            <span
+              style="font-weight: 500; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; margin-right: 12px;"
+            >
+              Standing Desk
+            </span>
+            <span
+              style="color: rgb(102, 102, 102); font-size: 14px; flex-shrink: 0; white-space: nowrap;"
+            >
+              Furniture
+               · $
+              1199
+            </span>
+          </a>
+        </div>
+        <div
+          aria-hidden="true"
+          style="height: 104px; width: 100%; z-index: -1;"
+        />
+      </div>
+    </div>
+    <nav
+      aria-label="Pagination"
+      style="display: flex; align-items: center; justify-content: center; gap: 12px; margin-top: 8px;"
+    >
+      <button
+        aria-label="Previous page"
+        disabled=""
+        style="padding: 8px 16px; font-size: 14px; border: 1px solid #ccc; border-radius: 4px; background: rgb(255, 255, 255); cursor: pointer;"
+      >
+        ← Prev
+      </button>
+      <span
+        style="font-size: 14px; color: rgb(85, 85, 85);"
+      >
+        Page 
+        1
+         of 
+        3
+         · 
+        5
+         items
+      </span>
+      <button
+        aria-label="Next page"
+        style="padding: 8px 16px; font-size: 14px; border: 1px solid #ccc; border-radius: 4px; background: rgb(255, 255, 255); cursor: pointer;"
+      >
+        Next →
+      </button>
+    </nav>
+  </div>
+</div>
+`;
